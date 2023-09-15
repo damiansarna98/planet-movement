@@ -1,0 +1,31 @@
+#universe {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    border: 1px solid #000;
+    margin: auto;
+}
+
+.planet {
+    position: absolute;
+    border-radius: 50%;
+    background-color: #f00;
+}
+
+#planet1 {
+    width: 80px;
+    height: 80px;
+    top: 50%;
+    left: 50%;
+    margin-top: -25px;
+    margin-left: -25px;
+}
+
+#planet2 {
+    width: 30px;
+    height: 30px;
+    top: 50%;
+    left: 50%;
+    margin-top: -15px;
+    margin-left: -15px;
+}
