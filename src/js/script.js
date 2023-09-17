@@ -11,7 +11,7 @@ function animatePlanets() {
     angle2 += 0.02;
     
     planet1.style.transform = `translate(-50%, -50%) rotate(${angle1}rad) translate(${radius1}px)`;
-    planet2.style.transform = `translate(-50%, -50%) rotate(${angle1}rad) translate(${radius2}px)`;
+    planet2.style.transform = `translate(-50%, -50%) rotate(${angle2}rad) translate(${radius2}px)`;
 
     requestAnimationFrame(animatePlanets);
 }
